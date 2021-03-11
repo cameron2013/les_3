@@ -1,3 +1,4 @@
+# Четвертая задача
 def return_power(a, b):
     if b == int(b):
         b = int(b)
@@ -12,7 +13,6 @@ def return_power(a, b):
         return "Второе число не целочисленное"
 
 
-
 a = input("Введите первое число: ")
 b = input("Введите второе целове отрицательное число: ")
 try:
@@ -20,4 +20,4 @@ try:
     b = float(b)
     print(f"Результат: {return_power(a, b)}")
 except ValueError:
-    print("Введены не числа")
+    print("Введены не только числа")

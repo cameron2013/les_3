@@ -3,9 +3,15 @@ def devide(a,b):
         return a/b
 
 
-a = float(input("Введите a: "))
-b = float(input("Введите b: "))
-if devide(a,b) == None:
-    print("Нельзя делить на ноль!")
-else:
-    print(f"a/b = {devide(a,b):.3f}")
+a = input("Введите a: ")
+b = input("Введите b: ")
+try:
+    a = float(a)
+    b = float(b)
+    if devide(a, b) == None:
+        print("Нельзя делить на ноль!")
+    else:
+        print(f"a/b = {devide(a, b):.3f}")
+except ValueError:
+    print("Переменные не числа!")
+

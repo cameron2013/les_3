@@ -14,4 +14,4 @@ try:
     else:
         print(f"a/b = {devide(a, b):.3f}")
 except ValueError:
-    print("Переменные не числа!")
+    print("Переменные не числа")

@@ -23,4 +23,4 @@ while True:
         flag_2 = False
         print("Обнуление результата")
         b = []
-        print(f"Результат {sum(b)}")
+        print(f"Результат: {sum(b)}")

@@ -11,4 +11,4 @@ try:
     c = float(c)
     print(f"Максимальная сумма двух элементов: {max_sum(a, b, c)}")
 except ValueError:
-    print("Переменные не числа!")
+    print("Переменные не числа")

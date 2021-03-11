@@ -20,4 +20,4 @@ try:
     b = float(b)
     print(f"Результат: {return_power(a, b)}")
 except ValueError:
-    print("Введены не числа")
+    print("Введены не только числа")

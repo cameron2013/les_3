@@ -43,8 +43,8 @@ def int_func_without_title(a):
 print(f'Результат: {int_func_without_title(input("Введите слово: "))}')
 # Ввод строки
 a = input("Введите строку: ").split()
-b = ''
+b = ' '
 for i in range(len(a)):
     a[i] = int_func_without_title(a[i])
     b = b + a[i] + ' '
-print(f"Результат: {b}")
+print(f"Результат:{b}")

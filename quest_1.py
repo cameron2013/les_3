@@ -1,3 +1,4 @@
+# Первая задача
 def devide(a,b):
     if b != 0:
         return a/b
@@ -14,4 +15,3 @@ try:
         print(f"a/b = {devide(a, b):.3f}")
 except ValueError:
     print("Переменные не числа!")
-

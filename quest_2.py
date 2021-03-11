@@ -1,3 +1,4 @@
+# Вторая задача
 def info_person(name, surname, year, city, email, phone):
     return f"{name} {surname} {year}-го года рождения проживает в городе {city}/-е. Email: {email}, тел.: {phone}"
 
